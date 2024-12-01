@@ -1,0 +1,106 @@
+/* Modal Background */
+.custom-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Modal Content */
+  .custom-modal-content {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* Modal Header */
+  .custom-modal-header {
+    background: linear-gradient(90deg, #38ef7d, #11998e);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-modal-header h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .custom-modal-close {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-modal-close:hover {
+    color: red;
+  }
+  
+  /* Modal Body */
+  .custom-modal-body {
+    padding: 20px;
+  }
+  
+  .custom-modal-body h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .custom-underline {
+    width: 50px;
+    height: 3px;
+    background: orange;
+    margin: 10px auto;
+    border: none;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .contact-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-list li i {
+    color: green;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Modal Button */
+  .custom-modal-button {
+    background: #38ef7d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  .custom-modal-button:hover {
+    background: #11998e;
+  }
+  
